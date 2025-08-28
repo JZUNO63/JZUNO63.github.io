@@ -2,6 +2,7 @@
 # 👋 Hello, I´m Jose Luis 
 
 💻 Data Analyst | Strategy & Automation
+<br>
 I turn data into strategic decisions.
 With a global perspective and strong technical expertise, I design end-to-end analytics projects, automate reporting, and create impactful visualizations that drive results.
 🌐 [Visit my portfolio](https://JZUNO63.github.io)  

@@ -1,9 +1,11 @@
 # JZUNO63.github.io
-# 👋 Hola, soy Jose Luis 
+# 👋 Hello, I´m Jose Luis 
 
-💻 Desarrollador de blah blah blah  
-🌐 [Visita mi portafolio](https://JZUNO63.github.io)  
-📩 Contáctame en: [jzuno.24@gmail.com](mailto:jzuno.24@gmail.com)  
+💻 Data Analyst | Strategy & Automation
+I turn data into strategic decisions.
+With a global perspective and strong technical expertise, I design end-to-end analytics projects, automate reporting, and create impactful visualizations that drive results.
+🌐 [Visit my portfolio](https://JZUNO63.github.io)  
+📩 Contact me at: [jzuno.24@gmail.com](mailto:jzuno.24@gmail.com)  
 
 ---
 
@@ -13,4 +15,4 @@
 
 ---
 
-⭐ **Dale una estrella** a mis proyectos si te gustan 
+⭐ **Give a star** to my projects if you like them

@@ -49,7 +49,7 @@
     }
     .project {
       background: #f8f8f8;
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
       padding: 1rem;
       border-radius: 8px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -59,13 +59,10 @@
       transform: translateY(-5px);
       box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     }
-    .project a {
-      color: #000000;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .project a:hover {
-      text-decoration: underline;
+    .project img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 1rem;
     }
     footer {
       text-align: center;
@@ -88,74 +85,132 @@
 <body>
   <header>
     <h1>Jose Luis Zuno Orozco</h1>
-    <p>
-Data Analyst | Strategy & Automation
-</p>
+    <p>Data Analyst | Strategy & Automation</p>
     <nav>
       <a href="#sobre-mi">About me</a>
-      <a href="#proyectos">Proyects</a>
+      <a href="#services">Data Analytics Services</a>
+      <a href="#proyectos">Projects</a>
       <a href="#contacto">Contact</a>
     </nav>
   </header>
 
-  <section id="About-me">
+  <section id="sobre-mi">
     <h2>About me</h2>
     <p>
       I turn data into strategic decisions. 
       <br>
-      With a global perspective and strong technical expertise, I design end-to-end analytics projects, automate reporting, and create impactful visualizations that drive results.
+      With a global perspective and strong technical expertise, I design end-to-end analytics projects, automate reporting, and create impactful visualizations that drive results.
     </p>
   </section>
 
+  <section id="services">
+    <h2>Data Analytics Services</h2>
+
+    <div class="project">
+      <h3>📊 Executive Dashboard Design</h3>
+      <p>
+        • Custom dashboards to track KPIs (sales, HR, inventory, operations, satisfaction, etc.)<br>
+        • Interactive visualizations using Power BI, Tableau, or Google Data Studio.<br>
+        • Data integration from multiple sources: Excel, Google Sheets, databases, online forms.<br>
+        <strong>Typical use cases:</strong> GPTW-style dashboards, executive dashboards, operational control panels.
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>🔁 Report Automation</h3>
+      <p>
+        • Eliminate manual tasks using Power Query, macros, or automated workflows.<br>
+        • Automate recurring reports.<br>
+        • Connect to databases, shared files, Google Forms or OfficeForms.<br>
+        <strong>Typical use cases:</strong> Monthly reports, survey automation, performance tracking.
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>📈 Sales Forecasting and Predictive Analytics</h3>
+      <p>
+        • Forecasting models for sales, inventory, or demand.<br>
+        • Analyze trends, seasonality, and consumption patterns.<br>
+        • Provide data-driven insights.<br>
+        <strong>Typical use cases:</strong> Restocking forecasts, staff planning, supplier performance.
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>🧠 KPI Modeling and Decision-Making Frameworks</h3>
+      <p>
+        • Custom indicators and goal-tracking models.<br>
+        • Strategic targets, thresholds, alerts, and heatmaps.<br>
+        • Complex data modeling using DAX.<br>
+        <strong>Typical use cases:</strong> Engagement indexes, inventory rotation, productivity metrics.
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>🧾 Survey Analysis & Data Storytelling</h3>
+      <p>
+        • Clean, structure, and analyze surveys.<br>
+        • Visualize results by dimension (Credibility, Respect, Fairness, etc.).<br>
+        • Break down by area, site, tenure, shift, or gender.<br>
+        <strong>Typical use cases:</strong> GPTW surveys, 360° evaluations, customer satisfaction.
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>🎯 Data Literacy Consulting & Training</h3>
+      <p>
+        • Help organizations adopt a data-driven culture.<br>
+        • Train teams in Excel, Power BI, and analytics.<br>
+        • Guide non-technical users to smarter decisions.
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>🧩 Specialized Packages</h3>
+      <p>
+        • Diagnosis + automation + dashboard.<br>
+        • Full GPTW employee experience package.<br>
+        • E-commerce inventory health check.<br>
+        • Executive pitch decks with data storytelling.
+      </p>
+    </div>
+  </section>
+
   <section id="proyectos">
-    <h2>Proyects</h2>
+    <h2>Key Projects</h2>
+
     <div class="project">
-      <h3>Proyect 1</h3>
-      <p>Brief description of the project.</p>
-      <a href="https://github.com/tuusuario/proyecto1" target="_blank">View</a> 
-      <a href="https://tuusuario.github.io/proyecto1" target="_blank"></a>
+      <h3>Workplace Climate Analysis – Great Place to Work Methodology</h3>
+      <p>
+        <strong>Role:</strong> Project Lead – Data Analysis & Visualization <br>
+        • Planned and executed a full-scale workplace climate project for 15,000 employees.<br>
+        • Designed survey framework, integrated multiple data sources, and performed advanced analytics to identify key engagement drivers.<br>
+        • <strong>Delivered:</strong> Automated Power BI dashboards with real-time tracking for HR and leadership teams.<br>
+        • <strong>Impact:</strong> Reduced reporting time from 2 weeks to 2 days and enabled faster, data-driven HR strategies.
+      </p>
+      <img src="imagenes/workplace-dashboard.png" alt="Workplace Climate Analysis Dashboard">
     </div>
+
     <div class="project">
-      <h3>Proyect 2</h3>
-      <p>Brief description of the project.</p>
-      <a href="https://github.com/tuusuario/proyecto2" target="_blank">View</a> 
-      <a href="https://tuusuario.github.io/proyecto2" target="_blank"></a>
+      <h3>Inventory Calculation Automation & Data Visualization</h3>
+      <p>
+        <strong>Role:</strong> Data Analyst – Process Automation <br>
+        • Developed an automated inventory calculation model.<br>
+        • Built interactive Tableau and Power BI dashboards for stock levels, sales trends, and replenishment tracking.<br>
+        • <strong>Impact:</strong> Cut reporting effort by 80% and optimized restocking decisions, preventing stockouts and overstocking.
+      </p>
+      <!-- Aquí irá la imagen que me pases -->
     </div>
-     <div class="project">
-      <h3>Proyect 3</h3>
-      <p>Descripción breve del proyecto.</p>
-      <a href="https://github.com/tuusuario/proyecto2" target="_blank">View</a> 
-      <a href="https://tuusuario.github.io/proyecto2" target="_blank"></a>
-    </div>
-     <div class="project">
-      <h3>Proyect 4</h3>
-      <p>Brief description of the project.</p>
-      <a href="https://github.com/tuusuario/proyecto2" target="_blank">View</a> 
-      <a href="https://tuusuario.github.io/proyecto2" target="_blank"></a>
-    </div>
-     <div class="project">
-      <h3>Proyect 5</h3>
-      <p>Brief description of the project.</p>
-      <a href="https://github.com/tuusuario/proyecto2" target="_blank">View</a> 
-      <a href="https://tuusuario.github.io/proyecto2" target="_blank"></a>
-    </div>
-     <div class="project">
-      <h3>Proyect 6</h3>
-      <p>Brief description of the project.</p>
-      <a href="https://github.com/tuusuario/proyecto2" target="_blank">View</a> 
-      <a href="https://tuusuario.github.io/proyecto2" target="_blank"></a>
-    </div>
-     <div class="project">
-      <h3>Proyect 7</h3>
-      <p>Brief description of the project.</p>
-      <a href="https://github.com/tuusuario/proyecto2" target="_blank">View</a> 
-      <a href="https://tuusuario.github.io/proyecto2" target="_blank"></a>
-    </div>
-     <div class="project">
-      <h3>Proyect 8</h3>
-      <p>Brief description of the project.</p>
-      <a href="https://github.com/tuusuario/proyecto2" target="_blank">View</a> |
-      <a href="https://tuusuario.github.io/proyecto2" target="_blank"></a>
+
+    <div class="project">
+      <h3>End-to-End Data Project Design & Delivery</h3>
+      <p>
+        <strong>Role:</strong> Data Analytics Project Manager <br>
+        • Led projects from requirements gathering to delivery, ensuring alignment with business objectives.<br>
+        • Coordinated with cross-functional teams to guarantee data integrity and actionable insights.<br>
+        • <strong>Impact:</strong> Provided decision-makers with clear, visual analytics that drove policy changes and operational improvements.
+      </p>
+      <!-- Aquí irá la imagen que me pases -->
     </div>
   </section>
 
@@ -173,12 +228,3 @@ Data Analyst | Strategy & Automation
   </footer>
 </body>
 </html>
-
-
-
-
-
-
-
-
-

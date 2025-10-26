@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio - Jose Luis Zuno Orozco</title>
+  <title>Portfolio - José Luis Zuno Orozco</title>
   <style>
     body {
       margin: 0;
@@ -64,6 +64,18 @@
       border-radius: 10px;
       margin-top: 1rem;
     }
+    .project button {
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #000;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .project button:hover {
+      background-color: #333;
+    }
     footer {
       text-align: center;
       background: #000000;
@@ -72,24 +84,17 @@
       margin-top: 2rem;
       font-size: 0.9rem;
     }
-    @keyframes fadeIn {
-      from { opacity: 0; }
-      to { opacity: 1; }
-    }
-    @keyframes fadeInUp {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
   </style>
 </head>
 <body>
   <header>
-    <h1>Jose Luis Zuno Orozco</h1>
+    <h1>José Luis Zuno Orozco</h1>
     <p>Data Analyst | Strategy & Automation</p>
     <nav>
       <a href="#sobre-mi">About me</a>
-      <a href="#services">Data Analytics Services</a>
       <a href="#proyectos">Projects</a>
+      <a href="#services">Data Analytics Services</a>
+      <a href="#process">Process</a>
       <a href="#contacto">Contact</a>
     </nav>
   </header>
@@ -97,9 +102,7 @@
   <section id="sobre-mi">
     <h2>About me</h2>
     <p>
-      I turn data into strategic decisions. 
-      <br>
-      With a global perspective and strong technical expertise, I design end-to-end analytics projects, automate reporting, and create impactful visualizations that drive results.
+      I help businesses turn messy data into automated, decision-ready insights—reducing busywork, revealing risks early, and boosting profitable growth.
     </p>
   </section>
 
@@ -107,143 +110,95 @@
     <h2>Data Analytics Services</h2>
 
     <div class="project">
-      <h3>📊 Executive Dashboard Design</h3>
-      <p>
-        • Custom dashboards to track KPIs (sales, HR, inventory, operations, satisfaction, etc.)<br>
-        • Interactive visualizations using Power BI, Tableau, or Google Data Studio.<br>
-        • Data integration from multiple sources: Excel, Google Sheets, databases, online forms.<br>
-        <strong>Typical use cases:</strong> GPTW-style dashboards, executive dashboards, operational control panels.
-      </p>
-    </div>
-
-    <div class="project">
-      <h3>🔁 Report Automation</h3>
-      <p>
-        • Eliminate manual tasks using Power Query, macros, or automated workflows.<br>
-        • Automate recurring reports.<br>
-        • Connect to databases, shared files, Google Forms or OfficeForms.<br>
-        <strong>Typical use cases:</strong> Monthly reports, survey automation, performance tracking.
-      </p>
-    </div>
-
-    <div class="project">
-      <h3>📈 Sales Forecasting and Predictive Analytics</h3>
-      <p>
-        • Forecasting models for sales, inventory, or demand.<br>
-        • Analyze trends, seasonality, and consumption patterns.<br>
-        • Provide data-driven insights.<br>
-        <strong>Typical use cases:</strong> Restocking forecasts, staff planning, supplier performance.
-      </p>
-    </div>
-
-    <div class="project">
-      <h3>🧠 KPI Modeling and Decision-Making Frameworks</h3>
-      <p>
-        • Custom indicators and goal-tracking models.<br>
-        • Strategic targets, thresholds, alerts, and heatmaps.<br>
-        • Complex data modeling using DAX.<br>
-        <strong>Typical use cases:</strong> Engagement indexes, inventory rotation, productivity metrics.
-      </p>
-    </div>
-
-    <div class="project">
-      <h3>🧾 Survey Analysis & Data Storytelling</h3>
-      <p>
-        • Clean, structure, and analyze surveys.<br>
-        • Visualize results by dimension (Credibility, Respect, Fairness, etc.).<br>
-        • Break down by area, site, tenure, shift, or gender.<br>
-        <strong>Typical use cases:</strong> GPTW surveys, 360° evaluations, customer satisfaction.
-      </p>
-    </div>
-
-    <div class="project">
-      <h3>🎯 Data Literacy Consulting & Training</h3>
-      <p>
-        • Help organizations adopt a data-driven culture.<br>
-        • Train teams in Excel, Power BI, and analytics.<br>
-        • Guide non-technical users to smarter decisions.
-      </p>
-    </div>
-
-    <div class="project">
       <h3>🧩 Specialized Packages</h3>
-      <p>
-        • Diagnosis + automation + dashboard.<br>
-        • Full GPTW employee experience package.<br>
-        • E-commerce inventory health check.<br>
-        • Executive pitch decks with data storytelling.
-      </p>
+      <p><strong>Replenishment Accelerator (3–6 weeks, from CAD $4.9k)</strong><br>
+      Stop stockouts and overstock with a Power BI model that combines sales, on-hand, lead times, and rotation to generate precise orders. Includes ROP, safety stock, alerts, and playbook.</p>
+      <button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSfIgRnCi1DuqhVO5ldnVC-ail-abXUgh7PxLokCKy4yJ33agQ/viewform?usp=header')">I want to know more</button>
+
+      <p><strong>Climate & Grievance Intel (2–4 weeks, from CAD $3.9k)</strong><br>
+      Turn surveys and anonymous feedback into SLA-tracked insights with executive dashboards and weekly trend reports.</p>
+      <button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSfIgRnCi1DuqhVO5ldnVC-ail-abXUgh7PxLokCKy4yJ33agQ/viewform?usp=header')">I want to know more</button>
+
+      <p><strong>Ops KPI Automation (2–3 weeks, from CAD $2.9k)</strong><br>
+      Automate your executive and operational dashboards, unify sources, and remove manual reporting.</p>
+      <button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSfIgRnCi1DuqhVO5ldnVC-ail-abXUgh7PxLokCKy4yJ33agQ/viewform?usp=header')">I want to know more</button>
     </div>
   </section>
 
   <section id="proyectos">
-  <h2>Key Projects</h2>
+    <h2>Key Projects</h2>
 
-<div class="project">
+    <div class="project">
       <h3>Smarter Climate Insights with Power BI</h3>
       <img src="image/clima-laboral-dashboard-1.png" alt="Dashboard Clima Laboral General">
       <img src="image/clima-laboral-dashboard-2.png" alt="Dashboard Clima Laboral Detalle">
-        <p>
-          <strong>Descripción</strong> <br>
-        Led the design and execution of a workplace climate measurement system for 15,000+ employees.<br>
-        Developed internal methodology, automated survey processing, and created real-time dashboards in Power BI.<br>
-          <p>
-        <strong>Challenge solved:</strong> Reduced weeks of manual analysis into a process that runs in minutes.<br>
-        <strong>Impact:</strong> Provided leaders with full visibility across sites, shifts, and dimensions, transforming employee feedback into strategic actions.<br>
-        <strong>Skills:</strong> Project planning, data integration, dashboard design, HR analytics.
-      <p>
-   <strong>Role:</strong> Project Lead – HR Analytics & Dashboard Design<br> 
-</p>
+      <p><strong>Key activities:</strong></p>
+      <ul>
+        <li>Led the design and execution of a workplace climate measurement system for 15,000+ employees.</li>
+        <li>Developed internal methodology, automated survey processing, and created real-time dashboards in Power BI.</li>
+        <li>Provided leaders with full visibility across sites, shifts, and dimensions.</li>
+      </ul>
+      <p><strong>Challenge solved:</strong> Reduced work environment reporting lapse from 30 days to 10 minutes with an improved sample size that allows 95% reliability and 5% error margin.</p>
+      <p><strong>Skills:</strong> Project planning, data integration, dashboard design, HR analytics.</p>
+      <p><strong>Role:</strong> Project Lead – HR Analytics & Dashboard Design</p>
     </div>
 
+    <div class="project">
+      <h3>Smarter Feedback with Excel and Power Pivot</h3>
+      <img src="image/NUEVA_IMAGEN_1.png" alt="Dashboard Buzón Anónimo 1">
+      <img src="image/NUEVA_IMAGEN_2.png" alt="Dashboard Buzón Anónimo 2">
+      <p><strong>Key activities:</strong></p>
+      <ul>
+        <li>Redesigned how anonymous employee feedback was processed and reported.</li>
+        <li>Centralized and categorized thousands of comments to transform unstructured feedback into actionable insights.</li>
+        <li>Delivered transparent, real-time tracking of resolution times and recurring issues.</li>
+      </ul>
+      <p><strong>Challenge solved:</strong> Eliminated fragmented follow-ups and manual reviews by automating classification and reporting.<br>
+      Reduced grievances reporting lapse from 10 days to 5 minutes with broader information for strategic decisions.</p>
+      <p><strong>Skills:</strong> Stakeholder alignment, feedback systems design, automation, cultural analytics.</p>
+      <p><strong>Role:</strong> Feedback Systems Designer – Cultural Analytics</p>
+    </div>
 
-  <div class="project">
-    <h3>Smarter Feedback with Excel and Power Pivot</h3>
-    <img src="image/buzon-anonimo-dashboard.png" alt="Dashboard Buzón Anónimo">
+    <div class="project">
+      <h3>Smarter Replenishment with Power BI</h3>
+      <img src="image/s.png" alt="Dashboard Reabastecimiento">
+      <p><strong>Key activities:</strong></p>
+      <ul>
+        <li>Designed and deployed an automated inventory management model integrating sales history, current stock, lead times, and product rotation.</li>
+        <li>Generated precise replenishment orders with ROP, safety stock, and alerts.</li>
+      </ul>
+      <p><strong>Challenge solved:</strong> Reduced replenishment calculation lapse from 5 days to 5 minutes. Also reduced stockbreaks by 50% due to automation and effective forecasting.</p>
+      <p><strong>Skills:</strong> Supply chain analytics, forecasting, automation, data visualization.</p>
+      <p><strong>Role:</strong> Data Analyst – Supply Chain Automation</p>
+    </div>
+  </section>
+
+  <section id="process">
+    <h2>Process</h2>
+    <p>Every project follows a structured, collaborative approach:</p>
+    <ul>
+      <li><strong>1. Diagnosis:</strong> Understand your goals, data sources, and decision-making needs.</li>
+      <li><strong>2. Design:</strong> Build models, dashboards, and automations tailored to your business.</li>
+      <li><strong>3. Delivery:</strong> Deploy solutions, train users, and ensure long-term usability.</li>
+    </ul>
+    <p>You’ll get clear timelines, transparent pricing, and strategic impact from day one.</p>
+  </section>
+
+  <section id="contacto">
+    <h2>Contact</h2>
+    <p>You can write to me here:</p>
     <p>
-       <strong>Descripción</strong> <br>
-      
-      Redesigned how anonymous employee feedback was processed and reported within the company's official complaint system.<br>
-      Centralized and categorized thousands of comments to transform unstructured feedback into actionable insights.<br>
-      <p>
-      <strong>Challenge solved:</strong> Eliminated fragmented follow-ups and manual reviews by automating classification and reporting.<br>
-      <strong>Impact:</strong> Delivered transparent, real-time tracking of resolution times and recurring issues, empowering leaders to implement targeted improvements.<br>
-      <strong>Skills:</strong> Stakeholder alignment, feedback systems design, automation, cultural analytics.
-        <p>
-          <strong>Role:</strong> Feedback Systems Designer – Cultural Analytics<br>
+      📧 <a href="mailto:jzuno.24@gmail.com">jzuno.24@gmail.com</a><br>
+      💻 <a href="https://github.com/JZUNO63" target="_blank">My GitHub</a><br>
+      📋 <a href="https://docs.google.com/forms/d/e/1FAIpQLSfIgRnCi1DuqhVO5ldnVC-ail-abXUgh7PxLokCKy4yJ33agQ/viewform?usp=header" target="_blank">Project Request Form</a>
     </p>
-  </div>
+  </section>
 
-  <div class="project">
-    <h3>Smarter Replenishment with Power BI</h3>
-    <img src="image/s.png" alt="Dashboard Reabastecimiento">
-    <p>
-       <strong>Descripción</strong> <br>
-      
-      Designed and deployed an automated inventory management model that integrates sales history, current stock, lead times, and product rotation to generate precise replenishment orders.<br>
-       <p>
-      <strong>Challenge solved:</strong> Reduced days of manual calculations into minutes of automated precision.<br>
-      <strong>Impact:</strong> Prevented stockouts, reduced overstock, and boosted efficiency by shifting decision-making from reactive to predictive and strategic.<br>
-      <strong>Skills applied:</strong> Supply chain analytics, forecasting, automation, data visualization.
-<p>
-         <strong>Role:</strong> Data Analyst – Supply Chain Automation<br>
-       </p>
-  </div>
-</section>
-
-<section id="contacto">
-  <h2>Contact</h2>
-  <p>You can write to me here:</p>
-  <p>
-    📧 <a href="mailto:jzuno.24@gmail.com">jzuno.24@gmail.com</a><br>
-    💻 <a href="https://github.com/JZUNO63" target="_blank">My GitHub</a>
-  </p>
-</section>
-
-<footer>
-  <p>&copy; 2025 Jose Luis Zuno Orozco | Portfolio</p>
-</footer>
-
+  <footer>
+    <p>&copy; 2025 José Luis Zuno Orozco | Portfolio</p>
+  </footer>
+</body>
+</html>
 
 
 
